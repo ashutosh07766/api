@@ -4,7 +4,6 @@ const app = express();
 const storage = [];
 
 app.post('/storing/:data', (req, res) => {
-    const data = req.params.data;
     storage.push(data);
     res.send('Data stored successfully!');
 });
