@@ -10,7 +10,7 @@ Installation:
 git clone https://github.com/yourusername/simple-express-api.git
 
 2.Change the directory:
-cd simple-express-api
+cd api
 
 3:Install dependencies:
 npm install
@@ -19,7 +19,7 @@ npm install
 node app.js
 
 5.Store data:
-curl -X POST http://localhost:3000/store/yourData
+curl -X POST http://localhost:3000/storing/yourData
 
 6.Retrieve data:
 curl http://localhost:3000/data
