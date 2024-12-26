@@ -16,7 +16,7 @@ cd api
 npm install
 
 4.Run the server:
-node app.js
+node app.js or npm start
 
 5.Store data:
 curl -X POST http://localhost:3000/storing/yourData
