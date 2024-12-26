@@ -1,4 +1,5 @@
-Simple Express API
+#Simple Express API
+
 This is a very simple API built with Express.js to store and retrieve data.
 
 Features
@@ -9,17 +10,14 @@ Installation:
 1.Clone the repositary
 git clone https://github.com/yourusername/simple-express-api.git
 
-2.Change the directory:
-cd api
-
-3:Install dependencies:
+2:Install dependencies:
 npm install
 
-4.Run the server:
+3.Run the server:
 node app.js or npm start
 
-5.Store data:
+4.Store data:
 curl -X POST http://localhost:3000/storing/yourData
 
-6.Retrieve data:
+5.Retrieve data:
 curl http://localhost:3000/data
